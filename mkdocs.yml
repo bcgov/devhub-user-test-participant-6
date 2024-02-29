@@ -1,0 +1,13 @@
+site_name: "Test template"
+site_description: "This is a test template!"
+docs_dir: "docs"
+repo_url:  ""
+edit_uri: edit/main/docs/
+plugins:
+    - techdocs-core
+    - ezlinks
+markdown_extensions:
+    - markdown_inline_mermaid
+    - md_in_html
+    -   mkpatcher:
+            location: patcher.py

@@ -1,0 +1,11 @@
+version: 1
+data_management_roles:
+  product_owner: Kat Vitik
+product_information:
+  ministry: CITZ
+  product_acronym: LWU
+  product_description: This is a test template!
+  product_name: Learn with Us
+  program_area: Continuing Education
+product_technology_information:
+  hosting_platforms: Private-Cloud-Openshift

@@ -1,0 +1,18 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: test-template
+  title: Test template
+  description: This is a test template!
+  annotations:
+    github.com/project-slug: bcgov/devhub-user-test-participant-6
+    backstage.io/techdocs-ref: dir:.
+    bcgovpubcode.gov.bc.ca/ministry: CITZ
+    bcgovpubcode.gov.bc.ca/program_area: Continuing Education
+    bcgovpubcode.gov.bc.ca/product_name: Learn with Us
+    bcgovpubcode.gov.bc.ca/product_acronym: LWU
+    bcgovpubcode.gov.bc.ca/product_owner: Kat Vitik
+spec:
+  type: documentation
+  lifecycle: experimental
+  owner: group:default/acrfd
